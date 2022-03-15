@@ -9,7 +9,7 @@ body { font-family: Lato, sans-serif;
 font-weight: 300;
 color: #3a3a3a; }
 
-/* heaight and logo */
+/* heading and logo */
 
 h1, h2 {
     font-family: Oswald, sans-serif;
@@ -80,16 +80,13 @@ h1, h2 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-
 /*creats the level of zoom for hero image */
 
 @keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+    from {
+        transform: scale(1); }
+    to {
+        transform: scale(1.1); }
 }
 
 #cover-text {
@@ -185,7 +182,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url(../images/ethos-center-image.jpeg) no-repeat center center;
+    background: url('../images/ethos-center-image.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -238,3 +235,17 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
+
